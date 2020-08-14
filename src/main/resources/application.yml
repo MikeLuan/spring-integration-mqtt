@@ -1,0 +1,11 @@
+server:
+  port: 8033
+
+spring:
+  mqtt:
+    url: tcp://mqttServerhost:1883
+    inboundclientid: in_clientid
+    outboundclientid: out_clientid
+    topics: +/V1/T/+/topic
+    username: admin
+    password: password
